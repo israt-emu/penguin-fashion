@@ -7,9 +7,42 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --small-text-color:#363958;
+    --primary-color:#A4BC46;
+    --secondary-color:#FABE4C;
+}
 h1,h2,h3{
     font-family: 'Bebas Neue', cursive;
 }
-p,span,a,small{
+p,a,small{
     font-family: 'Roboto', sans-serif;
+}
+.buy-btn{
+    padding: 0.7rem 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: var(--primary-color);
+    border: 0;
+    border-radius: 10px;
+}
+
+/* header section */
+header{
+    background-image: url(images/Group\ 33064.png), linear-gradient(#FFFBF0, #FFFBF0);
+    background-repeat: no-repeat;
+    background-position: 40% 0;
+}
+header .nav-menu .nav-item .nav-link{
+    color: var(--small-text-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero-txt h1{
+    color: var(--small-text-color);
+    font-size: 3.5rem;
+}
+.hero-txt h1 span{
+    color: var(--secondary-color);
 }
