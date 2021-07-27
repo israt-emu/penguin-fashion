@@ -46,3 +46,25 @@ header .nav-menu .nav-item .nav-link{
 .hero-txt h1 span{
     color: var(--secondary-color);
 }
+
+/* woman jacket */
+
+.woman-jacket h2{
+    font-size: 2.5rem;
+    color: var(--small-text-color);
+    font-weight: bold;
+}
+h5.card-title{
+    font-size: 1.7rem;
+    color: var(--small-text-color);
+    font-weight: bold;
+}
+.price-btn .price{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.card-img{
+    background: #F1F1F1;
+    height: 350px;
+}
