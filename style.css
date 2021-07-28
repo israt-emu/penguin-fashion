@@ -39,6 +39,9 @@ header .nav-menu .nav-item .nav-link{
     font-weight: 500;
     font-size: 16px;
 }
+.logo{
+    width:290px;
+}
 .hero-txt h1{
     color: var(--small-text-color);
     font-size: 3.5rem;
@@ -49,7 +52,7 @@ header .nav-menu .nav-item .nav-link{
 
 /* woman jacket */
 
-.woman-jacket h2{
+.jacket h2{
     font-size: 2.5rem;
     color: var(--small-text-color);
     font-weight: bold;
@@ -67,4 +70,29 @@ h5.card-title{
 .card-img{
     background: #F1F1F1;
     height: 350px;
+}
+
+/* features-section */
+.features{
+    margin-bottom: 100px;
+}
+.feature h3{
+    font-family: 'Roboto', sans-serif;
+    color: var(--small-text-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+/* responsive css */
+
+@media only screen and (max-width:380px){
+    .logo{
+        width:190px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .card-img{
+        height:100%;
+    }
 }
